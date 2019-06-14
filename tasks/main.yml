@@ -1,0 +1,7 @@
+---
+# tasks file for pmahindrakar.remove-docker
+- name: Remove Docker Installation From Linux
+  shell: service docker stop
+  shell: yum -qy remove python2-pip
+  shell: yum -qy remove docker-ce
+  shell: yum -qy remove docker-ce-cli 
